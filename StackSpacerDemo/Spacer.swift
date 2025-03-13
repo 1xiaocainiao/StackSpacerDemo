@@ -10,7 +10,7 @@ import UIKit
 class Spacer: UIView {
     fileprivate var space: CGFloat = 0
     
-    required init(_ space: CGFloat = 5) {
+    required init(_ space: CGFloat = 1) {
         self.space = space
         
         super.init(frame: .zero)
